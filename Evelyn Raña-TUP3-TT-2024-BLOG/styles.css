@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Muli, sans-serif;
+}
+
+
+header,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+    background-color: #e9ecf5;
+}
+
+
+header img {
+    max-width: 35%;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000db;
+    padding: 7px;
+
+
+}
+
+
+a:hover {
+    color: #035f23;
+    border-radius: 25%;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #444444;
+}
+
+h1 {
+    font-family: bree serif;
+    font-size: 450%;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    color: #444444;
+}
+
+
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.izquierda {
+    max-width: 90%;
+    margin: auto;
+}
+
+.articulos {
+    box-shadow: 5px 5px 5px 5px #444444;
+    padding: 3%;
+
+}
+
+.articulos p {
+    max-width: 95%;
+
+}
+
+.articulos img {
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.articulos form {
+    display: block;
+    max-width: 90%;
+    margin-top: 2%;
+}
+
+
+.sidebar section {
+    padding-top: 20%;
+
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.sidebar .children {
+    padding-left: 10%;
+    padding-top: 10px;
+    margin: auto;
+
+}
+
+.sidebar .posts {
+    padding-top: 20%;
+}
+
+
+.columnas {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 0.5fr;
+    grid-template-areas:
+        "izquierda izquierda aside";
+}
+
+.izquierda {
+    grid-area: izquierda;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+
+footer {
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+
+}
+
+footer p {
+    padding: 2% 0
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0
+}
+
+footer li {
+    list-style: none;
+}
